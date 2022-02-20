@@ -8,6 +8,7 @@ Apart from creation, all DispatchQueue public methods and signals are supported.
 If `thread_count == 0`, runs queue in synchronous mode.
 If `thread_count < 0`, creates `OS.get_processor_count()` Threads.
 """
+tool
 extends Resource
 
 signal all_tasks_finished()

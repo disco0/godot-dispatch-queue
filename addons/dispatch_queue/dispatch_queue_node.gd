@@ -9,6 +9,7 @@ Creates the Threads when entering tree and shuts down when exiting tree.
 If `thread_count == 0`, runs queue in synchronous mode.
 If `thread_count < 0`, creates `OS.get_processor_count()` Threads.
 """
+tool
 extends Node
 
 signal all_tasks_finished()
